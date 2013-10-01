@@ -487,7 +487,7 @@ div.pagination a {
     margin: 0 10px;
     cursor: pointer;
     position: relative;
-    background: #547b23 url(../images/mainnav.gif) repeat-x 0 0;
+    background: #2dacc7;
     color: #FFFFFF;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -514,9 +514,9 @@ div.pagination a {
 .rd-navmenu .nav-expand ul {
     display: block;
     margin: 0 10px;
-    border-left: 3px solid #547b23;
-    border-right: 3px solid #547b23;
-    border-bottom: 3px solid #547b23;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
@@ -524,12 +524,12 @@ div.pagination a {
 .rd-navmenu .main-nav ul li {
     display: block;
     clear: left;
-    border-top: 1px solid #FFFFFF;
-    border-bottom: 1px solid #d2dcb2;
-    background: #ecf3d4;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: #a7e2ee;
 }
 .rd-navmenu .main-nav ul li.selected {
-    background: #f5f9e7;
+    background: #25a0ba;
 }
 .rd-navmenu .main-nav ul li span {
     display: block;
@@ -539,12 +539,12 @@ div.pagination a {
 .rd-navmenu .main-nav li a:visited,
 .rd-navmenu .main-nav li a:active {
     background: none;
-    color: #4C711D;
+    color: #fff;
     border: 0;
     display: block;
 }
 .rd-navmenu .main-nav li a:hover {
-    color: #568e0e;
+    color: #fff;
 }
 /* expanded navigation */
 .rd-navmenu .nav-expand ul li {
