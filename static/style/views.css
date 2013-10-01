@@ -1,0 +1,106 @@
+/**
+ * Views stylesheet - for Mahara's Aqua theme.
+ *
+ * Copyright (C) 2006-2013 Catalyst IT Ltd
+ * This file is licensed under the same terms as Mahara itself
+ */ 
+/******************** Collection navigation ********************/
+/* Collections */
+#collectionnavwrap {
+	background: #F3F7EC;
+}
+ul.colnav li a,
+ul.colnav li a:link,
+ul.colnav li a:visited,
+ul.colnav li a:active {
+    background: #d6e0c5;
+}
+/******************** Blocktype icons panel ********************/
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+    #editcontent-sidebar {
+        width: 39px;
+        top: 0;
+    }
+    body.no-js #editcontent-sidebar {
+        width: 64px;
+    }
+    #tabcontent #page,
+    #tabcontent #page.open {
+        margin-left: 46px;
+    }
+    body.no-js #tabcontent #page,
+    body.no-js #tabcontent #page.open {
+        margin-left: 71px;
+    }
+    .block-category-title .withjs,
+    .block-category-title .nonjs {
+    	text-indent: -9999px;
+    }
+    .blocktypetitle,
+    .open #content-editor-header,
+    #content-editor-header {
+        display: none;
+    }
+    .ui-draggable-dragging .blocktype .blocktypetitle {
+    	display: inline;
+    }
+}
+/******************** Blocks ********************/
+.blockinstance-header .title a,
+.blockinstance-header .title a:link,
+.blockinstance-header .title a:visited,
+.blockinstance-header .title a:active {
+	color: #1E6297;
+}
+.blockinstance-header .title a:hover {
+	color: #267bbd;
+    text-decoration: none;
+}
+/******************** Responsive design ********************/
+/* for 950px or less */
+@media screen and (max-width: 950px) {
+    .columns4,
+    .columns5 {
+        width: 31% !important;
+    }
+}
+/* for 768px or less */
+@media screen and (max-width: 768px) {
+    .columns3,
+    .columns4,
+    .columns5 {
+        width: 48% !important;
+    }
+    .blockinstance.configure {
+        width: 80% !important;
+        left: 5% !important;
+    }
+}
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 98% !important;
+        padding: 0 0.9% 3px 0.9%;
+        float: none;
+    }
+}
+/* for 540px or less */
+@media screen and (max-width: 540px) {
+    #toggle_watchlist_link,
+    #print_link,
+    #objection_link {
+        display: none;
+    }
+    /* Latest forum posts block (on groups page) */
+    #latestforumposts td {
+        float: left;
+        width: 98%;
+        padding: 3px 0.9% 0 0.9%;
+        border-bottom: 0;
+    }
+    #latestforumposts td.right {
+        text-align: left;
+        padding: 0 0.9% 3px 0.9%;
+    }
+}
