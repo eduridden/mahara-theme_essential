@@ -18,13 +18,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
- * @subpackage core
- * @author     Catalyst IT Ltd
+ * @subpackage theme
+ * @author     Julian (@moodleman) Ridden
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006-2013 Catalyst IT Ltd http://catalyst.net.nz
  */
 
 $theme = new StdClass;
 
-$theme->displayname = 'Default';
+$theme->displayname = 'Essential';
 $theme->parent      = 'raw';
