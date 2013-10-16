@@ -991,6 +991,32 @@ ul.searchtab li span.inactive {
 }
 /******************** Sidebar ********************/
 /* general sidebar styles */
+#editcontent-sidebar {
+    background: #2dacc7 !important;
+}
+
+.blocktype {
+	color: #267bbd !important;
+}
+
+.block-category-title .withjs,
+.block-category-title .nonjs {
+    color: #333	 !important;
+}
+
+#select-theme {
+background-color: #fff !important;
+border: 1px solid #B3B3B3;
+}
+
+#block-category-general, 
+#block-category-internal, 
+#block-category-fileimagevideo, 
+#block-category-external, 
+#block-category-blog {
+    border: 1px solid #B3B3B3;
+}
+
 .sideblock {
     background: #fff;
     padding: 3px 10px;
